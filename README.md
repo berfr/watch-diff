@@ -1,5 +1,43 @@
 # watch-diff
 
+Periodically run a command and receive nice diff styled emails on output changes.
+
+## setup
+
+```shell
+pip install watch-diff
+```
+
+## features
+
+- supports Python >= 3.4
+- uses only Python Standard Library
+- sends email diff in both text and html form
+- uses `Message-ID` and `In-Reply-To` to group email threads
+
+## usage
+
+```console
+$ watch-diff --help
+usage: watch-diff [-h] [-v | -d] [-i SECONDS] [-r RECIPIENT] command
+
+Watch command output and get notified on changes
+
+positional arguments:
+  command               the command to watch
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i SECONDS, --interval SECONDS
+                        number of seconds between executions
+  -r RECIPIENT, --recipient RECIPIENT
+                        send email to recipient
+
+logging level:
+  -v, --verbose         enable verbose output
+  -d, --debug           show debugging statements
+```
+
 ## credentials
 
 ```shell
