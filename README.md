@@ -10,7 +10,7 @@ pip install watch-diff
 
 ## features
 
-- supports Python >= 3.4
+- supports Python >= 3.6
 - uses only Python Standard Library
 - sends email diff in both text and html form
 - uses `Message-ID` and `In-Reply-To` to group email threads
