@@ -1,5 +1,8 @@
 # watch-diff
 
+[![Main workflow](https://github.com/berfr/watch-diff/workflows/Main%20workflow/badge.svg)](https://github.com/berfr/watch-diff/actions?query=workflow%3A%22Main+workflow%22)
+[![PyPI](https://img.shields.io/pypi/v/watch-diff)](https://pypi.org/project/watch-diff)
+
 Periodically run a command and receive nice diff styled emails on output changes.
 
 ## setup
