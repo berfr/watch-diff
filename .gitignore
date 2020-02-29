@@ -1,0 +1,6 @@
+__pycache__/
+.tox/
+build/
+dist/
+venv/
+watch_diff.egg-info/
