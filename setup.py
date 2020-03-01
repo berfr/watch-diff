@@ -24,6 +24,7 @@ setup(
     packages=['watch_diff'],
     extras_require={
         'dev': [
+            'black==19.10b0',
             'setuptools==45.2.0',
             'tox==3.14.5',
             'twine==3.1.1',

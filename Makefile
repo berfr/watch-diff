@@ -9,6 +9,7 @@ clean:
 	rm -rf build dist watch_diff.egg-info
 
 tests:
+	black --check .
 	python -m unittest
 
 release: clean build tests
