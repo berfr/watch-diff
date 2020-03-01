@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 
 
 with open("watch_diff/__init__.py") as f:
-    version = re.search(r"__version__ = \'(\d+\.\d+\.\d+)\'", f.read()).group(1)
+    version = re.search(r"__version__ = \"(\d+\.\d+\.\d+)\"", f.read()).group(1)
 
 with open("README.md") as f:
     long_description = f.read()
