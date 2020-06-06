@@ -18,7 +18,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="berfr",
-    author_email="me@berfr.me",
+    author_email="berfr4@gmail.com",
     python_requires=">=3.6",
     url="https://github.com/berfr/watch-diff",
     packages=["watch_diff"],
