@@ -5,7 +5,7 @@
 
 Periodically run a command and receive nice diff styled emails on output changes.
 
-See https://berfr.me/posts/watch-diff/ for more info.
+See https://berfr.github.io/posts/watch-diff/ for more info.
 
 ## setup
 
